@@ -5,7 +5,7 @@ import string
 _store: dict[str,str]={}
 
 def _generate_code() -> str:
-    return "".join(random.choices(string.ascii_letters+string.digits,k-=6))
+    return "".join(random.choices(string.ascii_letters+string.digits,k=6))
 
 def save_url(long_url: str) -> str:
     """
