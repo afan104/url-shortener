@@ -1,0 +1,1 @@
+# placeholder: security group (ports 22, 8000), iam role + policies (dynamodb, ecr) for ec2
