@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, HttpUrl
-from app.storage import save_url, get_url
+from shortener.storage import save_url, get_url
 
 # router
 app = FastAPI()
